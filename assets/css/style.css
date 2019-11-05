@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px auto;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
