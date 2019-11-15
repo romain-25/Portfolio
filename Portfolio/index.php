@@ -57,7 +57,7 @@
                   <div class="row">
                         <div class="col-lg-8"></div>
 
-                        <div class="col-lg-4 project project1 wow fadeInUp" onclick="location.href='project.php'"></div>
+                        <div class="col-lg-4 project project1 wow fadeInUp" onclick="location.href='../projets/Bomberman/index.html'"></div>
                   </div>
 
                   <div class="whitespace"></div>

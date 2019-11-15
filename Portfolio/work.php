@@ -55,16 +55,16 @@
                   <div class="whitespace"></div>
 
                   <div class="row">
-                        <div class="col-lg-8"></div>
+                        <div class="col-sm-6"></div>
 
-                        <div class="col-lg-4 project project1 wow fadeInUp" data-wow-delay="1.4s" onclick="location.href='project.php'"></div>
+                        <div class="col-lg-4 project project1 wow fadeInUp" data-wow-delay="1.4s" onclick="location.href='/projets/Bomberman/index.html'"></div>
                         <img src="" alt="">
                   </div>
 
                   <div class="whitespace"></div>
 
                   <div class="row">
-                        <div class="col-lg-6 project project2 wow fadeInUp" onclick="location.href='project.php'"></div>
+                        <div class="col-lg-6 project project2 wow fadeInUp" onclick="location.href='/projets/Bomberman/index.html'"></div>
 
                         <div class="col-lg-6"></div>
                   </div>

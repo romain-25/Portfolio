@@ -30,15 +30,13 @@
 
 
             <!--------------- hero image starts here --------------->
-            <div class="container">
-                  <div class="row">
-                        <div class="col-lg-12 about image wow fadeInUp" data-wow-delay="1s"></div>
-                  </div>
-            </div>
+
             <!--------------- hero image ends here --------------->
 
 
             <!--------------- hero section starts here --------------->
+            <div class="whitespace"></div>
+
             <div class="container">
                   <div class="hero-content">
                         <br><br>
@@ -49,9 +47,9 @@
 
                                     <p class="wow fadeInUp">En Septembre 2019, j'ai débuté une formation de développeur / designer web à l'Access Code School à Belfort (90).
 
-L'ACS est un centre de formation dépendant de la Grande École du Numérique.
+                                    L'ACS est un centre de formation dépendant de la Grande École du Numérique.
 
-La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p>
+                                    La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p>
                                     <h3 class="wow fadeInUp" data-wow-delay="1.2s">Moi.</h3><br>
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai passé un CAP en électrotechnique à Audincourt, puis passé un BAC en électrotechnique en alternance au CFAI d’Exincourt, la partie qui me plaisait dans le domaine de l’électrotechnique était la programmation d’automate et de robot.</p>
                                     <br>
@@ -60,6 +58,22 @@ La formation se base sur une pédagogie par projets. Les étudiants travaillent 
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">L’informatique ma toujours plus, surtout la partie développement, les langages comme javascript et PHP me passionne par leur sens logique.</p>
                                     <br>
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement front-end pour la partie visuel et dynamique d’un site.</p>
+                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">Compétences.</h3>
+                                    <br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">HTML5<br>
+                                    CSS3 / Bootstrap / Sass<br>
+                                    JavaScript / React.js<br>
+                                    Git<br>
+                                    Adobe ( Illustrator / Photoshop / XD )<br>
+                                    Maquettage / Wireframe<br>
+                                    PHP / Symfony<br>
+                                    SQL / MySQL<br>
+                                    MVC<br>
+                                    JMerise / MCD<br>
+                                    Wordpress</p>
+
+
+
 
 
                               </div>
