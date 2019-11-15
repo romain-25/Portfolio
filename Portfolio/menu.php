@@ -4,7 +4,7 @@
                   </span>
 
                   <ul id="menu">
-                        <li><a href="index.php"><span></span></a></li>
+                        <li><a href="index.php">accueil<span>.</span></a></li>
                         <li><a href="work.php">réalisation<span>.</span></a></li>
                         <li><a href="about.php">à propos de moi<span>.</span></a></li>
                         <li><a href="contact.php">contact<span>.</span></a></li>
@@ -20,7 +20,7 @@
                   <div class="close-btn">fermer</div>
 
                   <ul id="menu">
-                        <li><a href="index.php"><span>.</span></a></li>
+                        <li><a href="index.php">accueil<span>.</span></a></li>
                         <li><a href="work.php">réalisations<span>.</span></a></li>
                         <li><a href="about.php">à propos de moi<span>.</span></a></li>
                         <li><a href="contact.php">contact<span>.</span></a></li>

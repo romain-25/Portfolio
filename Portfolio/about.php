@@ -45,11 +45,22 @@
 
                         <div class="row">
                               <div class="col-lg-12">
-                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">about me.</h3><br>
+                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">Ma formation.</h3><br>
 
-                                    <p class="wow fadeInUp">Living with passion is what I strictly adhere to. “Always do what you love” how much ever hackneyed this sounds it holds absolutely true. That's why I travel a lot. Not for the sole reason of “loving” to travel but it helps me to get rid of the world and escape into a different dimension of my own. As I am a travel freak I love freezing the moments I relish. The art of capturing photos is something I am always fascinated by.</p>
+                                    <p class="wow fadeInUp">En Septembre 2019, j'ai débuté une formation de développeur / designer web à l'Access Code School à Belfort (90).
 
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">I am a continuous learner. Learning for me equates to exploring new ideas and growing as an individual. I just cannot imagine my life devoid of designing. I freely express my creativity and imagination by designing. And to give my passion of designing a platform I have a YouTube channel named, Codegrid.</p>
+L'ACS est un centre de formation dépendant de la Grande École du Numérique.
+
+La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p>
+                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">Moi.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai passé un CAP en électrotechnique à Audincourt, puis passé un BAC en électrotechnique en alternance au CFAI d’Exincourt, la partie qui me plaisait dans le domaine de l’électrotechnique était la programmation d’automate et de robot.</p>
+                                    <br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai ensuite travaillé 5 ans de VSD en tant que contrôleur qualité, je m’occupai de machine 3d pour le contrôle des pièces et la gestion d’un 10 enne d’opérateur, ce qui m’a appris à apprécier le travail en équipe. J’ai décidé de quitter cet emploi pour cultiver ma passion au sein d’une formation pour en faire mon métier.</p>
+                                    <br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">L’informatique ma toujours plus, surtout la partie développement, les langages comme javascript et PHP me passionne par leur sens logique.</p>
+                                    <br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement front-end pour la partie visuel et dynamique d’un site.</p>
+
 
                               </div>
                         </div>

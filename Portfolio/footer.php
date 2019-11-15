@@ -21,8 +21,8 @@
                         <div class="info">
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @harrnish</h4>
+                                          <p class="wow fadeInUp">téléphone</p>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">06 16 89 17 29</h4>
                                           <br><br>
                                     </div>
 

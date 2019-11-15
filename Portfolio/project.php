@@ -42,26 +42,22 @@
                               <div class="col-lg-12">
                                     <br>
 
-                                    <h1 class="wow fadeInUp" data-wow-delay="1s">Project Name</h1><br><br>
+                                    <h1 class="wow fadeInUp" data-wow-delay="1s">Intégration avec Bootstrap</h1><br><br>
 
                                     <div class="row">
                                           <div class="col-lg-4">
-                                                <p class="wow fadeInUp" data-wow-delay="1.2s">service :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.3s">Web Development</h6>
+                                                <p class="wow fadeInUp" data-wow-delay="1.2s">début :</p>
+                                                <h6 class="wow fadeInUp" data-wow-delay="1.3s">16 Octobre 2019</h6>
                                           </div>
 
                                           <div class="col-lg-4">
-                                                <p class="wow fadeInUp" data-wow-delay="1.4s">started :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.5s">8 May 2019</h6>
+                                                <p class="wow fadeInUp" data-wow-delay="1.4s">fin :</p>
+                                                <h6 class="wow fadeInUp" data-wow-delay="1.5s">18 Octobre 2019</h6>
                                           </div>
 
-                                          <div class="col-lg-4">
-                                                <p class="wow fadeInUp" data-wow-delay="1.6s">completed :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.7s">15 May 2019</h6>
-                                          </div>
                                     </div>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="1.8s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum officia molestiae laboriosam, rem reprehenderit. Laboriosam quae alias, iure nesciunt dolorum. Eaque, magni, enim. Dolores, provident voluptas dicta commodi vel magni nesciunt sed maiores aperiam illo officiis voluptate at quod, praesentium excepturi enim.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.8s">Intégration d'une maquette en utilisant le framework Bootstrap. Durée 2 jours.</p>
                               </div>
                         </div>
                   </div>
@@ -79,7 +75,6 @@
                                     <div class="project image wow fadeInUp" data-wow-delay="0.8s"></div>
                               </div>
                               <div class="col-md-4">
-                                    <div class="project image wow fadeInUp" data-wow-delay="0.8s"></div>
                               </div>
                         </div>
                   </div>
@@ -95,10 +90,10 @@
                   <div class="container">
                         <div class="row">
                               <div class="col-lg-6 prev">
-                                    <p><ion-icon name="arrow-back"></ion-icon>previous</p>
+                                    <p><ion-icon name="arrow-back"></ion-icon> précedent</p>
                               </div>
                               <div class="col-lg-6 next">
-                                    <p>next<ion-icon name="arrow-forward"></ion-icon></p>
+                                    <p> suivent<ion-icon name="arrow-forward"></ion-icon></p>
                               </div>
                         </div>
                   </div>
