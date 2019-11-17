@@ -30,8 +30,8 @@
                                           <p class="wow fadeInUp" data-wow-delay="0s">lien</p>
 
                                           <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">Linkedin</li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">GitHub</li>
+                                                <li id="Linkedin" class="wow fadeInUp" data-wow-delay="0.4s">Linkedin</li>
+                                                <li id="GitHub" class="wow fadeInUp" data-wow-delay="0.6s">GitHub</li>
 
                                           </ul>
 
@@ -40,7 +40,7 @@
 
                                     <div class="col-lg-4" id="address">
                                           <p class="wow fadeInUp" data-wow-delay="0s">e-mail</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">romain.rouabah@gmail.com</h4>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">contact@romain-rouabah.fr</h4>
                                           <br><br>
                                     </div>
                               </div>
