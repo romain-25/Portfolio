@@ -22,6 +22,7 @@
 
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/ihover.css">
       <script src="assets/js/wow.min.js"></script>
 
 </head>

@@ -262,6 +262,7 @@ h6 {
       left: 50%;
 }
 
+
 @media(max-width: 768px) {
       #projet {
             width: 100% !important;
@@ -271,6 +272,7 @@ h6 {
       }
 
       #projet img {
+            padding-top: 15px;
 
 
       }
