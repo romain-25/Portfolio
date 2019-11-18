@@ -6,13 +6,12 @@
 
 
                   <div class="row">
-                        <div class="col-lg-4"></div>
-                        <img src="assets/img/langerba.png" class="img-fluid rounded" alt="Exemple arrondi" height='600px' width='400px' />
-                  </div>
+                        <div class="col-sm"></div>
+                        <img src="assets/img/langerba.png" class="img-fluid rounded" class="vignette" alt="Exemple arrondi"  />
 
-                  <div class="row">
-                        <div class="col-lg-4"></div>
-                        <img src="assets/img/bomberman.png" class="img-fluid rounded" alt="Exemple arrondi" height='600px' width='400px' />
+                        <div class="col-sm"></div>
+                        <img src="assets/img/bomberman.png" class="img-fluid rounded" class="vignette" alt="Exemple arrondi"  />
+                        <div class="col"></div>
                   </div>
 
                   <div class="whitespace"></div>

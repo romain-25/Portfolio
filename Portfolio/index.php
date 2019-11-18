@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,12 @@
             <!--------------- hero section starts here --------------->
             <div class="hero">
                   <div class="header">
-                        <h1 class="line anim-typewriter">Je suis développeur / designer web.</h1>
+                        <!-- <h1 class="line anim-typewriter">Je suis développeur / designer web.</h1> -->
+                        <h1>Je suis
+  <a href="" class="typewrite" data-period="2000" data-type='[ "développeur web.", "designer web."]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
                   </div>
             </div>
 
@@ -49,6 +54,7 @@
 
                   <div class="vertical"></div>
                   <br>
+            </div>
                   
                   <?php
                         include'projets.php'
@@ -59,7 +65,7 @@
 
             <!--------------- footer starts here --------------->
             <?php 
-            include ('footer.php')
+                  include ('footer.php')
             ?>
             <!--------------- footer ends here --------------->
 
@@ -68,6 +74,7 @@
       </div>
 
       <!-- greensock cdn -->
+      <script src="assets/js/script.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

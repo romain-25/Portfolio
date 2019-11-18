@@ -27,11 +27,11 @@
                                     </div>
 
                                     <div class="col-lg-4" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">lien</p>
+                                          <p class="wow fadeInUp" data-wow-delay="0s">liens</p>
 
                                           <ul>
-                                                <li id="Linkedin" class="wow fadeInUp" data-wow-delay="0.4s">Linkedin</li>
-                                                <li id="GitHub" class="wow fadeInUp" data-wow-delay="0.6s">GitHub</li>
+                                                <a href="https://www.linkedin.com/in/romain-rouabah-7358bb189/" id="Linkedin" class="wow fadeInUp" data-wow-delay="0.4s">Linkedin</li>
+                                                <a href="https://github.com/romain-25?tab=repositories" id="GitHub" class="wow fadeInUp" data-wow-delay="0.6s">GitHub</a>
 
                                           </ul>
 
