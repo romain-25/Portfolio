@@ -50,13 +50,13 @@
 
                                     La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p>
                                     <h3 class="wow fadeInUp" data-wow-delay="1.2s">Moi.</h3><br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai passé un CAP en électrotechnique à Audincourt, puis passé un BAC en électrotechnique en alternance au CFAI d’Exincourt, la partie qui me plaisait dans le domaine de l’électrotechnique était la programmation d’automate et de robot.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai passé un CAP en électrotechnique à Audincourt et ensuite un BAC en électrotechnique en alternance au CFAI d’Exincourt. La partie qui me plaisait dans le domaine de l’électrotechnique était la programmation d’automates et de robots.</p>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai ensuite travaillé 5 ans de VSD en tant que contrôleur qualité, je m’occupai de machine 3d pour le contrôle des pièces et la gestion d’un 10 enne d’opérateur, ce qui m’a appris à apprécier le travail en équipe. J’ai décidé de quitter cet emploi pour cultiver ma passion au sein d’une formation pour en faire mon métier.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai ensuite travaillé 5 ans en tant que contrôleur qualité. Je m’occupais de machines 3D pour le contrôle des pièces et la gestion d’une dizaine d’opérateurs, ce qui m’a appris à apprécier le travail en équipe. J’ai décidé de quitter cet emploi pour cultiver ma passion au sein d’une formation pour en faire mon métier.</p>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">L’informatique ma toujours plus, surtout la partie développement, les langages comme javascript et PHP me passionne par leur sens logique.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">L’informatique m’a toujours beaucoup intéressé, surtout la partie développement. Les langages comme JAVASCRIPT et PHP me passionnent par leurs sens logiques.</p>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement front-end pour la partie visuel et dynamique d’un site.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement FRONT-END pour la partie visuelle et dynamique d’un site.</p>
                                     <h3 class="wow fadeInUp" data-wow-delay="1.2s">Compétences.</h3>
                                     <br>
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">HTML5<br>
