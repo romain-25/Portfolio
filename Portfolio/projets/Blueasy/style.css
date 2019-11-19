@@ -1,0 +1,260 @@
+body
+{
+    font-family: 'Segoe ui';
+    src: url(font/segoeui.ttf);
+    color: white;
+    background-color: #515f67;
+
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+h3
+{
+    font-size: 16pt;
+}
+
+/* TOP HEADER*/
+
+header nav ul
+{
+    display: flex;
+}
+
+.logo
+{
+    margin: auto;
+}
+
+header
+{
+    background: no-repeat url(src/header1.png);
+    height: 800px;
+}
+
+.header
+{
+    width: 100%;
+    height: 150px;
+    background-color: #465058;
+    opacity: 0.8;
+}
+
+header li
+{
+    font-size: 12pt;
+}
+
+header a:hover 
+{
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+header li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+/* HEADER */
+
+.header1
+{
+    text-align: center;
+   font-size: 30pt;
+   padding-top: 260px;
+}
+
+.surligné
+{
+    background-color: #465058 ;
+    opacity: 0.8;
+}
+
+/* SERVICES */
+
+#services
+{
+    background: no-repeat url(src/services.png);
+    height:405px;
+    font-size: 10pt;
+    font-family: 'Segoe UI' bold, Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+/* PORTFOLIO MENU*/
+
+#portfolio
+{
+    width: 100%;
+    background: no-repeat url(src/portfolio.png);
+    height:844px;
+    color:black;
+}
+
+#portfolio li
+{
+    margin-left:50px;
+    font-size: 12pt;
+}
+
+#portfolio a:hover 
+{
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+#portfolio nav ul
+{
+    display: flex;
+}
+
+#portfolio li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+.container_portfolio_images img:hover
+{
+    filter: brightness(30%);
+}
+
+/* JUST DEFAULT SECTION */
+
+#just
+{
+    height: 470px;
+    width: 100%;
+}
+
+#btn_gray
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* TWITTER */
+
+.twitter
+{
+    background-color: #4bcaff;
+    height: 305px;
+}
+
+.twitter p
+{
+    font-size: 26px;
+}
+
+/* WHO IS JOHN DOE ? */
+
+#who
+{
+    background: no-repeat url(src/who\ is\ john\ doe.png);
+    height: 505px;
+}
+
+/* TESTIMONIAL */
+
+#testimonial
+{
+    background-color: white;
+    height: 305px;
+    color: black;
+    font-size: 26px;
+}
+
+.container_testimonial p
+{
+    font-size: 26px;
+}
+
+/* CONTACT */
+
+#contact
+{
+    background: no-repeat url(src/contact.png);
+    height: 814px;
+
+}
+
+form 
+{
+    margin: 0 auto;
+    width: 900px;
+}
+  
+input 
+{
+    font: 1em sans-serif;
+    width: 470px;
+    height: 55px;
+    background: none;
+    box-sizing: border-box;
+    border:2px solid white;
+    margin-bottom: 60px;
+}
+  
+  
+textarea
+{
+    vertical-align: top;
+    background: none;
+    width: 1140px;
+    height: 220px;
+    border:2px solid white;
+}
+  
+button 
+{
+    margin-top: 40px;
+    width: 370px;
+    height: 60px;
+    background-color: #6fa2cc;
+    color: white;
+    border: none;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    background: no-repeat url(src/footer.png);
+    height: 170px;
+    font-size: 12px;
+}
+
+.footer nav ul
+{
+    display: flex;
+}
+
+.footer li a 
+{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-right: 2px solid white
+}
+
+.footer li:last-child a
+{
+    border:none;
+}
+
+

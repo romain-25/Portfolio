@@ -40,7 +40,7 @@
 
                                     <div class="col-lg-4" id="address">
                                           <p class="wow fadeInUp" data-wow-delay="0s">e-mail</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">contact@romain-rouabah.fr</h4>
+                                          <a href="contact.php" class="wow fadeInUp" data-wow-delay="0.2s">contact@romain-rouabah.fr</a>
                                           <br><br>
                                     </div>
                               </div>

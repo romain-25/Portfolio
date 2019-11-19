@@ -1,0 +1,255 @@
+*{
+    margin:0;
+}
+
+/****************************** PAGE 1  *****************************************/
+
+body{
+    width:100%;
+    height:auto;
+    background-image: url(images/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Audiowide', cursive;
+}
+
+/****** FOND De table ******/
+
+.fond_page1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 230px 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 6%;
+    scroll-margin-bottom: auto;
+    background-image: url(images/fond_table.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: rotate(50deg); */
+}
+
+.fond_page2{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px 50px;
+  width: 50%;
+  height: 100%;
+  margin-left: 45%;
+  margin-right: auto;
+  scroll-margin-bottom: auto;
+  background-image: url(images/fond_table.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #2c3e50;
+  /* transform: rotate(50deg); */
+}
+
+.fond_page3{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 220px 50px;
+  width: 50%;
+  height: 100%;
+  margin-left: 45%;
+  margin-right: auto;
+  scroll-margin-bottom: auto;
+  background-image: url(images/fond_table.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:#2c3e50;
+  /* transform: rotate(50deg); */
+}
+
+/******* TITRE *******/
+
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+#titre {
+  color: #2c3e50;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top:50%;
+  left:30%;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+}
+
+#titre:before,
+#titre:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+#titre:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+#titre:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
+
+/****** H2 ******/
+
+h2 {
+  width: 180px;
+  color: #2c3e50;
+}
+
+/**** REINITIALISER LES PARAMETRE DU NAV *****/
+
+#option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+
+/******** ENLEVER FLECHE PAR DEFAULT ******/
+
+#option::-ms-expand {
+    display: none;
+  }
+ 
+/****** SELECT PERSONALISE ******/
+
+#select {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 7em;
+    height: 4em;
+    line-height: 1.8;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .29em;
+  }
+#option {
+  flex: 1;
+  padding:  .5em;
+  color: #fff;
+  cursor: pointer;
+  }
+
+/****** Flèche ******/
+
+#select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #f39c12;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+  }
+
+/***** Transition ******/
+
+#select:hover::after {
+  color: #2775c3;
+  }
+
+/******* ENTREE RESULTAT *********/
+
+#resultat{
+  background: #2c3e50;
+  line-height: 1.8;
+  width: 7em;
+  height: 4em;
+  border-radius: .29em;
+  color : white;
+  font-family: 'AudioWide', serif;
+  font-size: 20px;
+  }
+
+/******* BOUTON VALIDER *******/
+
+.bouton_valider{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 4em;
+  position:center;
+  border-radius: .25em;
+  background-color: #f39c12;
+  border: none;
+  padding: .5em 2em;
+  font-family: 'Audiowide', cursive;
+  font-weight: 200;
+  cursor: pointer;
+  border: solid 3px #2c3e50;
+  font-family: 'AudioWide', serif;
+  }
+
+.bouton_valider2{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 4em;
+  position:center;
+  border: solid 3px #2c3e50;
+  border-radius: 100%;
+  background-color: #f39c12;
+  padding:1em;
+  margin-left: 30%;
+  font-family: 'Audiowide', cursive;
+  font-weight: 200;
+  cursor: pointer;
+  font-family: 'AudioWide', serif;
+  }
+
+.bouton_valider:hover{
+  color: #2775c3;
+}
+
+.bouton_valider2:hover{
+  color: #2775c3;
+}

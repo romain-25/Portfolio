@@ -8,7 +8,7 @@
 .ih-item * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
 }
 .ih-item a {
   color: #333;
@@ -64,7 +64,7 @@
   position: relative;
   width: 316px;
   height: 216px;
-  border: 8px solid #fff;
+  border: 8px solid #0F0F0F;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .ih-item.square .info {
@@ -2884,7 +2884,7 @@
 }
 .ih-item.square.effect4 a:hover .info {
   width: 300px;
-  height: 120px;
+  height: 150px;
   visibility: visible;
   top: 40px;
   -webkit-transform: rotate(0deg) translate(0, 0);

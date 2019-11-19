@@ -262,20 +262,32 @@ h6 {
       left: 50%;
 }
 
+#projet{
+      margin-left: 10%;
+}
+
+#projet .col-md-4{
+      padding-bottom: 10%;
+}
+
+
 
 @media(max-width: 768px) {
       #projet {
             width: 100% !important;
-            margin:auto;
+            margin-left:3%;
             display: flex;
-            flex-direction: column;    
-      }
-
-      #projet img {
-            padding-top: 15px;
+            flex-direction: column;   
 
 
       }
+
+      #projet .col-md-4{
+            padding-bottom: 5%;
+
+            
+      }
+
       
       .vertical {
             display: none;
@@ -345,6 +357,12 @@ h6 {
       
 }
 #media a {
+      text-decoration: none;
+      color: white;
+      font-weight: 200;
+}
+
+#address a {
       text-decoration: none;
       color: white;
       font-weight: 200;

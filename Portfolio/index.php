@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      <title>Accueil| Rouabah Romain | Portfolio</title>
+      <title>Accueil| Romain Rouabah | Portfolio</title>
 
       <!-- stylesheet -->
       <link rel="stylesheet" href="assets/css/style.css">
@@ -35,10 +35,10 @@
                   <div class="header">
                         <!-- <h1 class="line anim-typewriter">Je suis développeur / designer web.</h1> -->
                         <h1>Je suis
-  <a href="" class="typewrite" data-period="2000" data-type='[ "développeur web.", "designer web."]'>
-    <span class="wrap"></span>
-  </a>
-</h1>
+            <a href="" class="typewrite" data-period="2000" data-type='[ "développeur web.", "designer web."]'>
+                  <span class="wrap"></span>
+            </a>
+                        </h1>
                   </div>
             </div>
 

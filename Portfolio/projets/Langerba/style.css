@@ -1,0 +1,758 @@
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #7d7d7d;
+    font-weight: 300;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background: #003c5a;
+    height: 57px;    
+    width: 100%;
+    z-index: 1;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #fc8f44;
+}
+
+p{
+    color: #66b8e0;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+h1{
+    font-family: "Merriweather", serif;
+    line-height: 1.55;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.container{
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.btn{
+    border: none;
+    display: block;
+    width: 230px;
+    line-height: 1.2;
+    border-radius: 24px;
+    cursor:pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #f08237;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background: #f9a870;
+}
+
+.btn-md{
+    font-size: 15px;
+    padding: 15px 55px 17px;
+    letter-spacing: 0.6px;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block
+    }
+
+.navbar{
+    max-width: 280px;
+    background: #003c5a;
+    justify-content: flex-start;
+}
+
+.navbar-brand{
+    font: 700 20px/1.3 "Merriweather", serif;
+    color: #edf4f8;
+}
+
+.langerba:hover{
+    font: 700 20px/1.3 "Merriweather", serif;
+    color: #edf4f8;
+}
+
+/******************FOOTER**************/
+
+.footer{
+    background: #272727;
+    height: auto;   
+    width: 100%;
+    z-index: 1;
+    }
+
+.footer .navbar{
+    background: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer .navbar-nav{
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+.footer .navbar-brand{
+    font: 700 30px/62px "Merriweather", serif;
+    color: #edf4f8;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer .navbar-brand:hover{
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.footer ul{
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer li a:hover{
+    color: #d2d2d2;
+}
+
+.footer li a{
+    font-size: 15px;
+    color: #7d7d7d;
+}
+
+.listeicones{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.iconesfooter{
+    display: flex;
+}
+
+.iconesfooter i{
+    color: #7d7d7d;
+    font-size: 20px;
+    margin: 0 11px;
+    transition: color ease-in-out 0.2s;
+}
+
+.iconesfooter i:hover{
+    color: #fc8f44;
+}
+
+.footer .nav-link{
+    padding: 2px;
+}
+
+.footer .nav-item{
+    margin-left: 0;
+}
+
+.tos{
+    background: #272727;
+    height: auto;   
+    width: 100%;
+    z-index: 1;
+}
+
+.tos .container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.tosp{
+    padding-top: 18px;
+    padding-bottom: 33px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 13px;
+    color:#7d7d7d;
+}
+
+.tosp a{
+    color: white;
+    text-decoration: none;
+    transition: color ease-in-out 0.2s;
+}
+
+.tosp a:hover{
+    color: #fc8f44;
+}
+
+.inline-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.telephone{
+    display: none;
+    font-weight: 300;
+    transition: color ease-in-out 0.2s;
+    font-size: 20px;
+}
+
+.telephone:hover{
+    display: none;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btntelephone{
+    border: none;
+    transform: rotateY(-180deg); 
+    background: #edf4f8;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border: none;
+    z-index: 1050;
+    transition: background ease-in-out 0.2s;
+}
+
+.btntelephone a{
+    text-transform: rotate(-90deg);
+    color: black;
+}
+
+.btntelephone:hover{
+    background: lightblue;
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    color: #edf4f8;
+}
+
+.navbar-nav{
+    background: #003c5a;
+
+}
+
+.navbar-toggler-icon{
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+li > a{
+    color:#2379a3;
+    transition: color ease-in-out 0.2s;
+}
+
+li > a:hover{
+    color: #ebebeb;
+    transition: color ease-in-out 0.2s;
+}
+
+.dropdown-item{
+    color: #003c5a;
+    font-weight: 300;
+    line-height: 40px;
+    transition: color ease-in-out 0.2s;
+}
+
+.dropdown-item:hover{
+    color: #fc8f44;
+    font-weight: 300;
+    line-height: 40px;
+    background: transparent;
+    transition: color ease-in-out 0.2s;
+}
+/*********************************************
+******************** SECOPEN ******************
+***********************************************/
+
+.secopen{
+    background: url(src/1.png) #003c5a no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    margin-top: 57px;
+}
+
+.secopen .container{
+    padding-top: 25px;
+    padding-bottom: 140px;
+}
+
+.secopenh1{
+    line-height: 1.3;
+    font-size: 32px;
+    color: white;
+    letter-spacing: .4px;
+    text-align: center;
+
+}
+
+.secopenp{
+    text-align: center;
+}
+
+/*********************************************
+******************** STUDYING ******************
+***********************************************/
+
+.studyingh1{
+    color: #252525;
+    text-align: left;
+}
+
+.studyingh2{
+    color: #555555;
+    text-align: left;
+    line-height: 1.3125;
+    margin-top: 30px;
+}
+
+.studyingp{
+    margin-top: 30px;
+}
+
+.secstudying{
+    background: #eaf2f6;
+}
+
+/*********************************************
+******************** OURBOOK ******************
+***********************************************/
+
+.ourbookh1{
+    color: #252525;
+    text-align: center; 
+}
+
+.ourbookh2{
+    color: #555555;
+    text-align: center;
+    line-height: 1.3125;
+    margin-top: 30px;
+}
+
+.ourbookp{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.secourbook{
+    background: #eaf2f6;
+}
+
+
+/***********************************************
+**********************6REASONS******************
+***********************************************/
+
+.sixbox1{
+    position: relative;
+    display: block;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.sixreasons img{
+    color: orange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: initial;
+    height: initial;
+}
+
+.sixreasonsh1{
+    color: #252525;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sixreasonsh2{
+    color: #555555;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.3125;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.sixreasonsp{
+    color: #555555;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.secsixreasons{
+    background: white;
+}
+
+.secsixreasons .container{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+/***********************************************
+**********************getemail******************
+***********************************************/
+    .getemail .btn{
+        max-width: 210px;
+        padding: 15px 17px;
+    }
+
+    .getemail{
+        background: #003c5a;
+    }
+
+    .getemail .container{
+        max-width: 450px;
+    }
+
+    .getemailh1{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+
+    .getemailinput{
+        height: 50px;
+        width: 100%;
+        border-radius: 24px;
+        padding: 8px 18px;
+        border: none;
+        color: #555555;
+    }
+
+    .getemail a, input{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .getemailp{
+        color: #66b8e0;
+        font-size: 16px;
+        line-height: 1.55;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .boutonhaut{
+        background: #fc8f44;
+        color: white;
+        font-weight: 300;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        border-radius: 24px;
+        padding: 10px 18px;
+        box-shadow: #272727 2px 2px 5px;
+    }
+
+    .boutonhaut:hover{
+        background: #fc802b;
+    }
+
+/* SM Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    .header {
+        background: #003c5a;    
+        width: 100%;
+    }
+
+    .navbar{
+        max-width: 280px;
+    }
+
+    h2{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: "Merriweather", serif;
+        text-align: center;
+    }
+
+    .secopen .container{
+        padding-top: 35px;
+        padding-bottom: 190px;
+    }
+
+    
+}
+
+/*
+Medium devices MD (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .header{
+        background: #003c5a;
+        width: 100%;
+    }
+
+    .navbar{
+        max-width: 280px;
+    }
+
+/* SECOPEN */
+    .secopen .container{
+    padding-top: 100px;
+    padding-bottom: 250px;
+    }      
+
+
+    .secopenh1{
+        font-size: 40px;
+    }
+
+    .seccarousel{
+        height: 644px;
+        background: #e76e33;
+        color: white;
+        text-align: center;
+    }
+
+    .seccarousel p{
+        color: white;
+        text-align: center;
+    }
+
+    .carousel-inner{
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 650px;
+        margin-top: 50px;
+    }
+
+    .seccarousel h5{
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .seccarousel p{
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 15px;
+        font-family: "Merriweather", serif;
+    }
+
+    .carousel-indicators li{
+        height: 15px;
+        width: 15px;
+        border-radius: 10px;
+    }
+
+    ol{
+        margin-bottom: 50px;
+    }
+
+    .height100{
+        margin-left: auto;
+        margin-right: auto;
+        width: 38px; 
+        height: 33px;
+        margin-bottom: 20px;
+    }
+
+    /*6reasons*/
+    .logomonde{
+        position: absolute;
+    }
+
+    .sixreasonsh2{
+        text-align: left;
+        margin-left: 100px;
+    }
+    .sixreasonsp{
+        text-align: left;
+        margin-left: 100px;
+    }
+
+}
+
+/* Large devices LG (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ul{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .footer{
+        display: flex;
+    }
+    
+    .navbar{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 992px;
+        width: 100%;
+    }
+
+    .nav-item{
+        margin-left: 30px;
+    }
+
+    .navbar-brand{
+        font: 700 30px/31px "Merriweather", serif;
+    }
+
+    header .navbar-brand:hover{
+        font: 700 30px/31px "Merriweather", serif;
+    }
+
+    .btntelephone{
+        display: none;
+    }
+
+    header .telephone{
+        display: flex;
+        font-weight: 300;
+        font-size: 20px;
+        color: white;
+        transition: color ease-in-out 0.2s;
+    }
+
+    header .telephone:hover{
+        display: flex;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fc8f44;
+        transition: color ease-in-out 0.2s;
+    }
+
+    /* SECOPEN */
+    .secopenh1{
+    font-size: 44px;
+    }
+
+    .secopen .container{
+        padding-bottom: 300px;
+    } 
+
+    /*OURBOOK*/
+
+    .ourbookh1{
+        text-align: left;
+    }
+  
+    .ourbookh2{
+        text-align: left;
+    }
+
+    .ourbookp{
+        text-align: left;
+    }
+
+    .tosp{
+        text-align: left;
+    }
+    
+}
+
+/*
+/* Extra large devices XL (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+
+    .container{
+        max-width: 1200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        }
+
+    .secstudying{
+        padding-top: 1.04rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .navbar{
+        max-width: 1200px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .studyingp{
+        padding-right: 100px;
+    }
+
+    /* SECOPEN */
+    .secopenh1{
+        font-size: 48px;
+        }
+
+    .secopen .container{
+        padding-top: 116px;
+        padding-bottom: 438px;
+    } 
+
+    /*email*/
+
+    .getemail .container{
+        max-width: 1200px;
+        position: relative;
+        padding-bottom: 200px;
+    }
+
+    .getemail .btn{
+        max-width: 270px;
+    }
+
+    .getemail a{
+        margin-left: 30px;
+        right: 220px;
+    }
+
+    .getemailinput{
+        max-width: 470px;
+        left: 220px;
+    }
+
+    .getemail a, input{
+        position: absolute;
+        display: inline;
+    }
+}
