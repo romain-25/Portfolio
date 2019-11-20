@@ -7,61 +7,21 @@ if ($retour) {
 ?>
 
 <?php
-        $name = $email = $message = "";
-        $isSuccess = false;
-        $emailTo = "contact@romain-rouabah.fr";
+  $host_name = 'db5000227229.hosting-data.io';
+  $database = 'dbs221806';
+  $user_name = 'dbu447813';
+  $password = '<ah&L|4ob@7?t>';
+  $connect = new PDO($host_name, $user_name, $password, $database);
 
-        if($_SERVER["REQUEST_METHOD"] == "POST")
-        {
-                $name = verifyInput($_POST["name"]);
-                $email = verifyInput($_POST["email"]);
-                $message = verifyInput($_POST["message"]);
-                $isSuccess = true;
-                $emailTextm= "";
+  if (mysql_errno()) {
+    die('<p>La connexion au serveur MySQL a échoué: '.mysql_error().'</p>');
+  } else {
+    echo '<p>Connexion au serveur MySQL établie avec succès.</p >';
+  }
 
-                if(empty($name))
-                {
-                        $isSuccess = false;
-                }
-                else{
-                        $emailText .= "Name: $name\n";
-                }
+  $reponse = $connect->query('SELECT * FROM Contact ')
+  $donnees = $reponse->fetch();
 
-                if(empty($email))
-                {
-                        $isSuccess = false;
-                }
-                else{
-                        $emailText .= "Email: $email\n";
-                }
 
-                if(empty($message))
-                {
-                        $isSuccess = false;
-                }
-                else{
-                        $emailText .= "Message: $message\n";
-                }
-
-                if($isSuccess)
-                {
-                        $headers = "From: $name <$email>\r\nReply-To: $email";
-                        mail($emailTo, "Un message de votre site", $emailText , $headers);
-                        $name = $email = $message = "";
-                }
-        }
-
-        function isEmail($var)
-        {
-                return filtre_var($var, FILTER_VALIDATE_EMAIL);
-        }
-
-        function verifyInput($var)
-        {
-                $var = trim($var);
-                $var = stripslashes($var);
-                $var = htmlspecialchars($var);
-                return $var;
-        }
 ?>
 

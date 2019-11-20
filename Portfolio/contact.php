@@ -52,7 +52,7 @@
             <div class="container-fluid">
                   <div class="row">
                         <div class="col-lg-8">
-                              <form name="contact-form" id="contact-form" method="post" action="">
+                              <form name="contact-form" id="contact-form" method="post" action="mail.php">
 
                               <ul>
 
@@ -82,7 +82,6 @@
 
                               <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp">Envoi</button>
 
-                              <p class="thank-you" style="display:<?php if($isSuccess) echo 'block'; else echo 'none';?>">Votre message a bien été envoyé. Merci de m'avoir contacté</p>
                               </form>
                         </div>
                   </div>
