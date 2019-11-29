@@ -77,6 +77,20 @@
 
   </div>
   
+<div class="col-md-4">
+ 
+
+ <div class="ih-item square colored effect4"><a href="/projets/Kritik/" target='_blank'>
+     <div class="img"><img src="assets/img/kritik.png" alt="img"></div>
+     <div class="mask1"></div>
+     <div class="mask2"></div>
+     <div class="info">
+       <h3>Projet Allocine</h3>
+       <p>Exploitation d'une base de données de films. Groupe de 3. <strong>Durée 5 jours</strong></p>
+     </div></a></div>
+
+</div>
+
 </div>
 
                   <div class="whitespace"></div>

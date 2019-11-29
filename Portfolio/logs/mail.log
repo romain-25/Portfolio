@@ -1,0 +1,7 @@
+2019-11-26 20:30:51 u99185001 zRk27r-1hu04h1NHc-00g03P |< REMOTE=184.154.139.0 SCRIPT=/mail.php -- /usr/sbin/sendmail -t -i
+2019-11-26 20:30:51 u99185001 zRk27r-1hu04h1NHc-00g03P WW invalid sender address: "  <>"
+2019-11-26 20:30:51 u99185001 zRk27r-1hu04h1NHc-00g03P <= S=cgi-mailer-bounces-806372598@kundenserver.de SZ=628 D=0 SID=806372598
+2019-11-26 20:30:51 u99185001 zRk27r-1hu04h1NHc-00g03P => contact@romain-rouabah.fr msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1M6pck-1iSVXx3QFi-008JUz
+2019-11-29 09:41:32 u99185001 zRsFbR-1hzdNm0Gd8-00pDXp |< REMOTE=178.23.34.0 SCRIPT=/mail.php -- /usr/sbin/sendmail -t -i
+2019-11-29 09:41:32 u99185001 zRsFbR-1hzdNm0Gd8-00pDXp <= S=test@test.fr SZ=660 D=0 SID=806372598
+2019-11-29 09:41:32 u99185001 zRsFbR-1hzdNm0Gd8-00pDXp => contact@romain-rouabah.fr msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MUok5-1iAS0T0XWT-00QkO4

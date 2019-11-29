@@ -26,6 +26,12 @@ $emailTo = "contact@romain-rouabah.fr";
 
 $retour = mail($emailTo, "Un message de votre site",$message, $headers);
 if ($nom = $email = $message = "") {
-        echo " Votre message a été envoyé!";
+
+
+  exit();
+
 }
+?>
+<?php
+        include 'contact.php'
 ?>

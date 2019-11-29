@@ -52,7 +52,7 @@
             <div class="container-fluid">
                   <div class="row">
                         <div class="col-lg-8">
-                              <form name="contact-form" id="contact-form" method="post" action="mail.php">
+                              <form name="contact-form" id="contact-form" method="post" onsubmit="alert('Votre message a bien été envoyé.')" action="mail.php">
 
                                     <ul>
 
@@ -80,6 +80,7 @@
                                     </ul>
 
                                     <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp">Envoi</button>
+
 
                               </form>
                         </div>
