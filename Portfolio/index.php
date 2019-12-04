@@ -24,6 +24,7 @@
       <link rel="stylesheet" href="assets/css/animate.css">
       <link rel="stylesheet" href="assets/css/ihover.css">
       <script src="assets/js/wow.min.js"></script>
+      <link rel="flavicon" type="image/png" href="assets/img/Logo.png" />
 
 </head>
 <body>
