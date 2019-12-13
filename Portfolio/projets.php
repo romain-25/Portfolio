@@ -91,6 +91,17 @@
 
 </div>
 
+<div class="ih-item square colored effect4"><a href="/projets/Any-Transfer-noMVC/" target='_blank'>
+     <div class="img"><img src="assets/img/anytransfer.png" alt="img"></div>
+     <div class="mask1"></div>
+     <div class="mask2"></div>
+     <div class="info">
+       <h3>Projet Wetransfer</h3>
+       <p>Recréer l'application web "Wetransfer", avec upload, stockage, envoi de mail automatique. Groupe de 3. <strong>Durée 5 jours</strong></p>
+     </div></a></div>
+
+</div>
+
 </div>
 
                   <div class="whitespace"></div>

@@ -48,7 +48,7 @@
 
                                     L'ACS est un centre de formation dépendant de la Grande École du Numérique.
 
-                                    La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p>
+                                    La formation se base sur une pédagogie par projets. Les étudiants travaillent en groupe ou seuls, sur plusieurs projets pendant 6 mois, puis réalisent un stage en entreprise de 2 mois en fin de formation.</p><br><br>
                                     <h3 class="wow fadeInUp" data-wow-delay="1.2s">Moi.</h3><br>
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">J’ai passé un CAP en électrotechnique à Audincourt et ensuite un BAC en électrotechnique en alternance au CFAI d’Exincourt. La partie qui me plaisait dans le domaine de l’électrotechnique était la programmation d’automates et de robots.</p>
                                     <br>
@@ -56,20 +56,23 @@
                                     <br>
                                     <p class="wow fadeInUp" data-wow-delay="0.2s">L’informatique m’a toujours beaucoup intéressé, surtout la partie développement. Les langages comme JAVASCRIPT et PHP me passionnent par leurs sens logiques.</p>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement FRONT-END pour la partie visuelle et dynamique d’un site.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Je préfère le développement FRONT-END pour la partie visuelle et dynamique d’un site.</p><br><br>
                                     <h3 class="wow fadeInUp" data-wow-delay="1.2s">Compétences.</h3>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">HTML5<br>
-                                    CSS3 / Bootstrap / Sass<br>
-                                    JavaScript / React.js<br>
-                                    Git<br>
-                                    Adobe ( Illustrator / Photoshop / XD )<br>
-                                    Maquettage / Wireframe<br>
-                                    PHP / Symfony<br>
-                                    SQL / MySQL<br>
-                                    MVC<br>
-                                    JMerise / MCD<br>
-                                    Wordpress</p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                    <img src="assets/img/1024px-HTML5_logo_and_wordmark.svg.png" alt="" width="50px"> HTML5<br><br>
+                                    <img src="assets/img/CSS.3.svg.png" alt="" width="35px"> CSS3<br><br>
+                                    <img src="assets/img/bootstrap-7-1175254.png" alt="" width="50px"> Bootstrap<br><br> 
+                                    <img src="assets/img/color-1c4aab2b.png" alt="" width="50px"> Sass<br><br>
+                                    <img src="assets/img/javascript.png" alt="" width="50px"> JavaScript<br><br> 
+                                    <img src="assets/img/React.js_logo-512.png" alt="" width="50px"> React.js<br><br>
+                                    <img src="assets/img/1200px-Octicons-mark-github.svg.png" alt="" width="50px"> Git<br><br>
+                                    <img src="assets/img/Creative_Cloud.svg.png" alt="" width="50px"> Adobe ( Illustrator / Photoshop / XD )<br><br>
+                                    <img src="assets/img/UX_icon-25-512.png" alt="" width="50px"> Maquettage / Wireframe<br><br>
+                                    <img src="assets/img/Elephpant.svg" alt="" width="50px"> PHP<br><br> 
+                                    <img src="assets/img/1_8nEZwglRtHPy3oDAANYPqA.png" alt="" width="50px"> Symfony<br><br>
+                                    <img src="assets/img/MySQL.svg.png" alt="" width="50px"> SQL / MySQL<br><br>
+                                    <img src="assets/img/WordPress-logotype-wmark.png" alt="" width="50px"> Wordpress</p>
 
 
 
